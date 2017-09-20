@@ -1,16 +1,6 @@
 # MHGenericAdapter
 a generic adapter for recycler view
 
-## Getting Started
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
 ### Installing
 
 Only add maven url to your project-level build.gradle
@@ -26,6 +16,8 @@ compile "com.github.MH480:MHGenericAdapter:0.1.1"
 ```
 
 After your build finished, you can use library as showen below
+
+## Getting Started
 
 ## Usage
 you can use it like simple adapter but you must pass 3 steps

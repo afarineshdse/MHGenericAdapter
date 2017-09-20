@@ -14,13 +14,28 @@ And add gradl url to your app-level build.gradle
 ```
 compile "com.github.MH480:MHGenericAdapter:0.1.1"
 ```
-
+### Advantages
+    * You can get rid of creating so many adapter classes for each recycler view
+    
+    * you can code less and use more
+    
+    * you can have onClick and onLongClick functionalities
+    
+    * you will be albe to have selectable items
+    
+    * Empty view is added,so you can have recycler view with empty view
+    
+    * simply bind your layout and data using @MHBindView annotation
+    
+    * simply make a view clickable using @MHBindView annotation
+    
 After your build finished, you can use library as showen below
 
 ## Getting Started
 
 ## Usage
 you can use it like simple adapter but you must pass 3 steps
+
 first define the items model as seperate java class
 
 here is my ```ItemModel``` class
@@ -68,9 +83,14 @@ third step is the item.xml file
     
 ```
 the ```ItemModel```class is my items class for adapter items
+
 and the ```ViewHolderModel``` class is my view holder class
+
 and you must pass ViewHolderModel.class as constructor parameter
+
+
 finaly you can create new instace of #MHGenericAdapter  like below
+
 ```
   MHRecyclerAdapter<ItemModel,ViewHolderModel> mAdapterRequests;
   mAdapterRequests = new MHRecyclerAdapter<ItemModel,ViewHolderModel>(ViewHolderModel.class);
@@ -90,7 +110,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **MOhammad Hoseini** - *Initial work* - [PurpleBooth](https://github.com/MH480)
+* **MOhammad Hoseini** - *Initial work* - [sanwix](https://github.com/MH480)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 

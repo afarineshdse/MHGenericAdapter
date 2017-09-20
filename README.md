@@ -9,7 +9,7 @@ Only add maven url to your project-level build.gradle
 maven { url "https://jitpack.io" }
 ```
 
-And add gradl url to your app-level build.gradle
+And then add gradle url to your app-level build.gradle
 
 ```
 compile "com.github.MH480:MHGenericAdapter:0.1.1"
